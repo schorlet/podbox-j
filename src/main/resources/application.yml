@@ -1,0 +1,7 @@
+logging.level:
+    com.podbox: DEBUG
+    org.apache: WARN
+    org.springframework: WARN
+
+spring:
+    main.show-banner: false
