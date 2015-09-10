@@ -1,3 +1,5 @@
+This challenge is related to the [Podbox's connector developer position](https://www.podbox.com/blog/job-offer-connector-developer/).
+
 # The Podbox connector Challenge!
 <img align="right" alt="We want you!" title="We want you!" width="350px" src="https://s3.amazonaws.com/podbox-blog/blog/wp-content/uploads/2015/09/07160555/podbox-connector-developer.jpg" />
 So you are willing to have fun working along with the [Podbox](https://www.podbox.com/about-us) team? Here is the first step, which will give you the freedom to demonstrate some of your developer skills!
