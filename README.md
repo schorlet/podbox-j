@@ -21,7 +21,7 @@ You can see a running version of a solution here: [https://podbox.herokuapp.com/
 
 ## How will you impress us?
 * by the simplicity of your solution
-* it find a way to make the calls to Spotify in parallel ([be careful...](https://www.youtube.com/watch?v=4F4qzPbcFiA))
+* if you find a way to make the calls to Spotify in parallel ([be careful...](https://www.youtube.com/watch?v=4F4qzPbcFiA))
 
 Notes:
 * **we will test your submission** by running the project with `./gradlew bootRun` and then going to [http://localhost:8080/](http://localhost:8080/). Make sure this works!
