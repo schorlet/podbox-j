@@ -15,7 +15,7 @@ Your goals are to:
 * implement the [`com.podbox.challenge.ChartsService.getHot10`](https://github.com/podbox/podbox-challenge-connector/blob/master/src/main/java/com/podbox/challenge/service/ChartsService.java#L17) method to retrieve the top 10 with the optional corresponding Spotify URI.
 * when you like your solution, you can submit it by sending us your proposal to `rd+challenge@podbox.com`
 
-You are not expected neither to modify the client code nor to add new server functionalities.
+Of course, you can add any dependencies and libraries you want. However, you are not expected neither to modify the client code nor to add new server functionalities.
 
 You can see a running version of a solution here: [https://podbox.herokuapp.com/](https://podbox.herokuapp.com/). The heroku app can be slow to startup and be careful that your ad or script blocker is not preventing from embedding the Spotify player.
 
