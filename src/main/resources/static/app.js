@@ -35,11 +35,13 @@
             scope: {
                 'uri': '='
             },
-            template: '<iframe ng-if="vm.uri" ng-src="{{ vm.url }}" width="300px" height="80px" frameborder="0" allowtransparency="true"></iframe>',
+            // template: '<iframe ng-if="vm.uri" ng-src="{{ vm.url }}" width="300px" height="80px" frameborder="0" allowtransparency="true"></iframe>',
+            template: '<audio ng-if="vm.uri" ng-src="{{ vm.url }}" controls><p>Your browser does not support the <code>audio</code> element</p></audio>',
             bindToController: true,
             controllerAs: 'vm',
             controller: function () {
-                this.url = $sce.trustAsResourceUrl("https://embed.spotify.com/?uri=" + this.uri);
+                // this.url = $sce.trustAsResourceUrl("https://embed.spotify.com/?uri=" + this.uri);
+                this.url = $sce.trustAsResourceUrl(this.uri);
             }
         };
     }
